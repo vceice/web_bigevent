@@ -1,0 +1,85 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    background: url("../images/login_bg.jpg") no-repeat center;
+    background-size: cover;
+}
+
+.header {
+    padding-top: 20px;
+}
+
+.loginAndRegister {
+    position: absolute;
+    width: 400px;
+    height: 310px;
+    background-color: #fff;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.loginAndRegister .title-box {
+    height: 60px;
+    background: url("../images/login_title.png") no-repeat center;
+}
+
+
+/* 登录表单区域 */
+
+.loginAndRegister .reg-box {
+    display: none;
+}
+
+.layui-form {
+    padding: 0 30px;
+}
+
+
+/* 表单输入框样式 */
+
+.layui-input-block {
+    margin: 0 !important;
+    margin-bottom: 15px !important;
+}
+
+
+/* 表单按钮样式 */
+
+.layui-btn {
+    width: 100%;
+    background-color: #1E9FFF !important;
+}
+
+#reg_btn,
+#login_btn {
+    font-size: 12px;
+}
+
+.layui-form {
+    position: relative;
+}
+
+
+/*字体图标定位*/
+
+.layui-form i {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+.layui-input {
+    padding-left: 30px !important;
+}
+
+.link {
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+/* 登录表单区域 */
